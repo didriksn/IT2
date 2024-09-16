@@ -12,7 +12,7 @@ def inputs(prompt):
         try:
             return float(input(prompt).replace(",", "."))
         except (ValueError, EOFError, MemoryError):
-            print("bro du skrev IKKE et tall liksom bro hvordan failer du i å skrive et tall liksom det er det letteste tingen noensinne liksom wtf hva skjer hvordan failer du en slik enkel task bro jeg er dypt skuffet må jeg ærlig si men jaja synd for deg du får bare kjøre koden på nytt du fortjener det uansett for å ikke ha skrevet et tall engang når det var nøyaktig det som var bedt av deg")
+            print("Det funket ikke. Kanskje du ikke skrev et numerisk tall. Pass på at du skriver tallene direkte, og ikke med bokstaver.")
 
 
 inp1 = inputs("Du har 4 larver, hvor lang (i cm) er den første?: ")
