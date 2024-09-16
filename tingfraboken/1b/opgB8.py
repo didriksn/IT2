@@ -1,0 +1,1 @@
+# problemet er at man må bruke == og ikke = i denne sammenhengen.

@@ -1,0 +1,1 @@
+# <= betyr at noe er mindre enn eller lik noe annet. Det motsatte av dette ville vært > som betyr at noe er større enn noe annet.

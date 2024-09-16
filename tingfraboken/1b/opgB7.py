@@ -1,0 +1,1 @@
+# == betyr at noe er likt noe annet. != betyr at noe ikke er likt noe annet.
