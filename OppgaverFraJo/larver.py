@@ -11,7 +11,7 @@ def inputs(prompt):
     while True:
         try:
             return float(input(prompt).replace(",", "."))
-        except (ValueError, EOFError, MemoryError):
+        except (ValueError, EOFError, MemoryError, KeyboardInterrupt):
             print("Det funket ikke. Kanskje du ikke skrev et numerisk tall. Pass på at du skriver tallene direkte, og ikke med bokstaver.")
 
 
