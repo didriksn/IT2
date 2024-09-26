@@ -19,7 +19,7 @@ def fullSensurering(ord):
 sensur = {}
 
 # Keysene i dictionary-en er basert på ordene i problematiskeOrd listen
-for i in range(0, len(problematiskeOrd)):
+for i in problematiskeOrd:
     sensur[problematiskeOrd[i]] = fullSensurering(problematiskeOrd[i])
 
 
